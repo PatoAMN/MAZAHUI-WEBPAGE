@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAZAHUI - Preservando la cultura mazahua</title>
+    <link rel="stylesheet" href="styles.css?v=2.1">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/LOGO.png" alt="MAZAHUI" class="logo-img">
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="conocenos.html" class="nav-link">Conócenos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">Programas <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="bordado.html">Taller de bordado</a></li>
+                            <li><a href="educativos.html">Talleres educativos</a></li>
+                            <li><a href="salud.html">Salud</a></li>
+                            <li><a href="comunidad.html">Trabajo en la comunidad</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="apoyanos.html" class="nav-link">Apóyanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="catalogo.html" class="nav-link">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacto.html" class="nav-link">Contáctanos</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Slideshow Background -->
+        <div class="hero-slideshow">
+            <div class="slide active">
+                <img src="PRINCIPAL/082d9228-1438-41a3-8727-8a52ce547780.JPG" alt="Cultura Mazahua">
+            </div>
+            <div class="slide">
+                <img src="PRINCIPAL/123.png" alt="Cultura Mazahua">
+            </div>
+            <div class="slide">
+                <img src="PRINCIPAL/4554468f-4cd3-4a4e-815b-75df39a10c98.JPG" alt="Cultura Mazahua">
+            </div>
+            <div class="slide">
+                <img src="PRINCIPAL/IMG_3294.jpg" alt="Cultura Mazahua">
+            </div>
+        </div>
+        
+        <!-- Slideshow Controls -->
+        <div class="slideshow-controls">
+            <button class="prev-btn" aria-label="Imagen anterior">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn" aria-label="Siguiente imagen">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <!-- Slideshow Indicators -->
+        <div class="slideshow-indicators">
+            <!-- Will be populated by JavaScript -->
+        </div>
+        
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <h1 class="hero-title">Preservando la cultura mazahua</h1>
+            <p class="hero-subtitle">Somos una asociación civil sin fines de lucro comprometida con la igualdad de oportunidades y el rescate de tradiciones ancestrales</p>
+            <div class="hero-buttons">
+                <a href="conocenos.html" class="btn btn-primary">Conócenos</a>
+                <a href="apoyanos.html" class="btn btn-secondary">Apóyanos</a>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Programas Section -->
+    <section id="programas" class="section bg-programs">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Programas</h2>
+                <p>Programas integrales para el desarrollo comunitario</p>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card" id="bordado">
+                    <div class="program-image">
+                        <img src="images/082d9228-1438-41a3-8727-8a52ce547780.JPG" alt="Taller de Bordado" style="width: 100%; aspect-ratio: 16 / 10; object-fit: cover;">
+                    </div>
+                    <h3>Taller de Bordado</h3>
+                    <p>Rescatamos la cultura de la comunidad mazahua a través del arte del bordado tradicional, beneficiando a más de 280 mujeres.</p>
+                                            <a href="bordado.html" class="program-link">Más información <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="program-card" id="educativos">
+                    <div class="program-image">
+                        <img src="images/08c01926-f99a-4836-9d58-293ae44417a8.JPG" alt="Talleres Educativos" style="width: 100%; aspect-ratio: 16 / 10; object-fit: cover;">
+                    </div>
+                    <h3>Talleres Educativos</h3>
+                    <p>Programas educativos que fomentan el aprendizaje y desarrollo de habilidades en la comunidad mazahua.</p>
+                    <a href="educativos.html" class="program-link">Más información <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="program-card" id="salud">
+                    <div class="program-image">
+                        <img src="images/35ad15d3-410f-4a61-8f6d-9a939de1155a.JPG" alt="Salud" style="width: 100%; aspect-ratio: 16 / 10; object-fit: cover;">
+                    </div>
+                    <h3>Salud</h3>
+                    <p>Iniciativas de salud comunitaria para mejorar el bienestar de las familias mazahuas.</p>
+                    <a href="salud.html" class="program-link">Más información <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="program-card" id="comunidad">
+                    <div class="program-image">
+                        <img src="images/3809b7fd-a67c-44e2-bead-6653b3d8c86f.JPG" alt="Trabajo en la Comunidad" style="width: 100%; aspect-ratio: 16 / 10; object-fit: cover;">
+                    </div>
+                    <h3>Trabajo en la Comunidad</h3>
+                    <p>Proyectos comunitarios que fortalecen los lazos sociales y promueven el desarrollo local.</p>
+                    <a href="comunidad.html" class="program-link">Más información <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apóyanos Section -->
+    <section id="apoyanos" class="section bg-support">
+        <div class="container">
+            <div class="section-header">
+                <h2>Apóyanos</h2>
+                <p>¡Tú puedes hacer que nuestros programas crezcan!</p>
+            </div>
+            <div class="support-content">
+                <div class="support-text">
+                    <h3>Tu donativo es fundamental</h3>
+                    <p>Tu donativo es fundamental para que nuestros programas crezcan y lleguen a más beneficiarios. Puedes apoyar a Mazahui de diferentes formas:</p>
+                    <ul class="support-methods">
+                        <li><i class="fas fa-university"></i> Depósito o transferencia bancaria</li>
+                        <li><i class="fas fa-gift"></i> Donativo en especie</li>
+                        <li><i class="fas fa-hands-helping"></i> Voluntariado</li>
+                        <li><i class="fas fa-user-graduate"></i> Servicio social</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Donar ahora</a>
+                </div>
+                <div class="support-image">
+                    <div class="image-placeholder">
+                        <img src="images/APOYANOS.JPG" alt="Apóyanos MAZAHUI">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section class="section bg-testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Testimonios</h2>
+                <p>Lo que dicen nuestras beneficiarias</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Para mi bordar es que otras culturas miren lo que hacemos."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <strong>Liliana</strong>
+                            <span>Beneficiaria de Mazahui</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Para mi bordar es un don muy grande que dios me dio. Me gusta porque es un trabajo muy bonito."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <strong>Herminia</strong>
+                            <span>Beneficiaria de Mazahui</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="section bg-contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contáctanos</h2>
+                <p>Estamos aquí para ti</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@mazahui.org.mx</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>01 55 5292 1498</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Dirección</h4>
+                            <p>Francisco González Bocanegra #314, Col. Centro, Valle de Bravo, Estado de México.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Asunto">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MAZAHUI</h3>
+                    <p>Preservando la cultura mazahua y promoviendo la igualdad de oportunidades.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="#conocenos">Conócenos</a></li>
+                        <li><a href="#programas">Programas</a></li>
+                        <li><a href="#apoyanos">Apóyanos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Programas</h4>
+                    <ul>
+                        <li><a href="#bordado">Taller de bordado</a></li>
+                        <li><a href="#educativos">Talleres educativos</a></li>
+                        <li><a href="#salud">Salud</a></li>
+                        <li><a href="#comunidad">Trabajo comunitario</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MAZAHUI. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
