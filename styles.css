@@ -1973,21 +1973,21 @@ p {
 /* Support Section */
 .support-content {
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr 1.2fr;
     gap: 4rem;
     align-items: stretch;
 }
 
 @media (min-width: 1400px) {
     .support-content {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1.6fr;
         gap: 6rem;
     }
 }
 
 @media (min-width: 1920px) {
     .support-content {
-        grid-template-columns: 1fr 2.5fr;
+        grid-template-columns: 1fr 2fr;
         gap: 8rem;
     }
 }
