@@ -2057,6 +2057,11 @@ p {
     display: block;
 }
 
+/* Evitar que se recorten los rostros en la foto del equipo en Conócenos */
+#historia .support-image .image-placeholder img {
+    object-fit: contain;
+}
+
 @media (min-width: 1400px) {
     .support-image .image-placeholder {
         min-height: 700px;
